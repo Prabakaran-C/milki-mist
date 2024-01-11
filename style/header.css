@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+    /* overflow-y: hidden; */
+}
+/* :root{
+    -primary-color: 002454;
+} */
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+title {
+    display: none;
+}
+header{
+    position: fixed;
+    top: 0%;
+    width: 100%;
+    z-index: 1;
+}
+
+.header-content {
+    /* position: fixed; */
+    width: 100%;
+    background: white;
+    height: 9vh;
+    box-shadow: 0 9px 6px rgba(0, 0, 1, 0.2);
+    top: 0;
+    transition: top 0.3s;
+}
+
+.flex-design {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo {
+    margin-top: 2px;
+    margin-right: 28px; 
+    margin-left: 40px;
+}
+
+
+.nav-links li {
+    margin-right: 34px;
+    color: rgb(43, 45, 62);
+}
+
+.nav-links li a:hover
+{
+    color:rgb(100, 168, 246) ;
+}
+
+button{
+    padding: 9px 22px;
+    align-items: center;
+    border-radius: 20px ;
+}
+.buy-now {
+    /* Add styling for the "Buy Now" button if needed */
+    margin-right: 50px;
+    color: white;
+    background-color: rgb(13, 9, 55);
+}
+
+
+.mt{
+    top:50%;
+}

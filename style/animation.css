@@ -1,0 +1,30 @@
+.fadet{
+     -webkit-animation-name: ft;
+    -webkit-animation-duration: 2s;
+    animation-name: ft;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+}
+
+
+@-webkit-keyframes ft {
+    from {
+        top: 2%;
+        opacity: 0;
+    }
+    to {
+        top: 0%;
+        opacity: 1;
+    }
+}
+
+@keyframes ft {
+    from {
+        top:2%;
+        opacity: 0;
+    }
+    to {
+        top:0%;
+        opacity: 1;
+    }
+}
