@@ -36,7 +36,7 @@
   width: 160px;
    height: 48px; 
    background-color: transparent; 
-   color: #002454;
+    color: #002454;
     margin:40px 0 0 190px;
     border-radius: 40px;
     transition: background-color 0.4s, color 0.4s;
@@ -47,13 +47,30 @@
   color: white;
 }
 
-.slider2{
+.slider2 {
   width: 100%;
+  max-height: 450px;
+  
+  /* border: 2px black solid; */
+  overflow-x:auto ;
+  overflow-y: hidden;
+}
+.slider2::-webkit-scrollbar {
+  width: 1px;
+}
+.mysiderpt2 {
+  width: 33.33%;
   display: flex;
-  scroll-behavior: auto;
-  border:  2px black solid;
+  align-items: center;
+ 
 }
-.mysiderpt2{
-  display: grid;
-  grid-template-columns: auto auto auto;
+
+.mysiderpt2 img {
+  width: 100%;
+  height: 100%;
+  padding-right: 5px;
+  object-fit: cover; /* Adjust object-fit based on your requirements */
+  margin-top: -75px; /* Adjust the value to move the image up */
 }
+
+
